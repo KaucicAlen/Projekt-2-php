@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+
+.containerMain{
+    width: 100vw;
+    height: 100vh;
+
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 1fr 1fr;
+
+    gap: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.containerMain div{
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+
+.headerMain{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.rules{
+    grid-row-end: span 3;
+    overflow: scroll;
+}
+
+.rules p{
+    font-weight: normal;
+    text-align: left;
+}
+.rules h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+.featured{
+    overflow: auto;
+}
+.featured p{
+    font-weight: normal;
+}
+.featured h1{
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.featured:hover{
+    box-shadow: 5px 5px black;
+}

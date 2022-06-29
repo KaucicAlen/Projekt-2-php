@@ -1,0 +1,124 @@
+.containerUser{
+    width: 100vw;
+    height: 100vh;
+
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px 1fr 50px 1fr;
+
+    gap: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.containerUser div{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.userInfo{
+    grid-row-start: 2;
+    background-color: #1db09317;   
+    overflow: auto;
+    min-height: 300px;
+}
+
+.newPack{
+    overflow: scroll;
+
+}
+
+.myPacksHeader{
+    grid-column-end: span 2;
+}
+
+.myPacks{
+    text-align: center;
+
+    grid-column-end: span 2;
+    display: grid;
+
+    gap: 25px;
+
+    overflow: auto;
+    display: flex;
+}
+
+.myPacks div{
+    padding: 10px;
+    border: 5px solid rgb(51, 0, 255);
+    border-radius: 10%;
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 350px;
+    min-height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 500ms;
+}
+
+.myPacks a{
+    color: rgb(30, 255, 0);
+        
+}
+
+.pack{
+    text-align: center;
+    border: 10px solid rgba(255, 255, 255, 0.307);
+    background-image: url("../pictures/backgroundPhoto1.jpg");
+    
+}
+
+.pack:hover{
+    border-radius: 20%;
+    border: 10px solid rgba(255, 255, 255, 0.307);
+}
+
+
+.modal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  /* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+}

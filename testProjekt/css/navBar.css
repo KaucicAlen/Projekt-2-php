@@ -1,0 +1,132 @@
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #38444d;
+        font-size: 14px;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 15px 10px;
+        text-decoration: none;
+    }
+    
+    li a:hover{
+        background-color: rgb(90, 90, 90);
+        text-decoration: none;
+        color: black;
+    }
+    
+
+    .navRight{
+        float: right;
+        color: white;
+    }
+
+    .navRight a{
+        font-weight: bold;
+    }
+
+    .navRight img{
+        width: 13px; 
+        height: 13px; 
+    }
+
+@media only screen and (min-width: 700px){
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #38444d;
+        font-size: 16px;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 15px 15px;
+        text-decoration: none;
+    }
+    
+    li a:hover{
+        background-color: rgb(90, 90, 90);
+        text-decoration: none;
+        color: black;
+    }
+    
+
+    .navRight{
+        float: right;
+        color: white;
+    }
+
+    .navRight a{
+        font-weight: bold;
+    }
+
+    .navRight img{
+        width: 13px; 
+        height: 13px; 
+    }
+}
+
+@media only screen and (min-width: 900px){
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #38444d;
+        font-size: 18px;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 15px 25px;
+        text-decoration: none;
+    }
+
+    li a:hover, .dropdown:hover .dropbtn{
+        background-color: rgb(90, 90, 90);
+        text-decoration: none;
+        color: black;
+    }
+
+    .navRight{
+        float: right;
+        color: white;
+    }
+
+    .navRight a{
+        font-weight: bold;
+    }
+
+    .navRight img{
+        width: 25px; 
+        height: 25px;
+        border: 1px solid white;
+    }
+}
+
+
